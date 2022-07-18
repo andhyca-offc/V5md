@@ -1,3 +1,4 @@
+
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `${htki} *REQUEST* ${htka}
 
@@ -5,7 +6,7 @@ let text = `${htki} *REQUEST* ${htka}
         Klik link di bawah ini
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Link', url: 'darmapryanda1@gmail.com'}},
+    {index: 1, urlButton: {displayText: 'Link', url: 'Wa.me/6285794408499'}},
 ]
 let tm = {
 text: text,

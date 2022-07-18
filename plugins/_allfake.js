@@ -48,28 +48,28 @@ handler.all = async function (m) {
 					description: 'Private Bot by Fangz',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
-					sourceUrl: "https://github.com/Fangzbotz2007",					
+					sourceUrl: "https://instagram.com/andhycarsrofficial",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://github.com/Fangzbotz2007",
+            mediaUrl: "https://instagram.com/andhycarsrofficial",
             mediaType: "VIDEO",
-            description: "https://github.com/Fangzbotz2007", 
-            title: 'Private Bot by Fangz',
-            body: wm,
+            description: "https://github.com/andhyca-offc", 
+            title: '「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」',
+            body: '🌱┊𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 By ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜×',
             thumbnailUrl: pp,
             sourceUrl: sgc
     }
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://github.com/Fangzbotz2007",
+            mediaUrl: "https://facebook.com/Andhykarzkhandsome",
             mediaType: "VIDEO",
-            description: "https://github.com/Fangzbotz2007", 
-            title: 'Private Bot by Fangz',
-            body: wm,
+            description: "https://github.com/andhyca-offc", 
+            title: '「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」',
+            body: "🌱┊𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 By ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜×",
             thumbnailUrl: pp,
             sourceUrl: sgc
     }
@@ -100,8 +100,8 @@ global.fakefb = {
                        },
             message: { 
                "extendedTextMessage": {
-                        "text":wm,
-                        "title": wm,
+                        "text": "「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」",
+                        "title": '🌱┊𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 By ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜×',
                         'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                                }
                              } 
@@ -112,7 +112,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat  ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "caption":"by : Fangz Ganteng","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "caption":"「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」","h": '🌱┊𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 By ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜×', 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                   global.fliveLoc2 = {
@@ -120,7 +120,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "Fangz Ganteng","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」","h": "🌱┊𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 By ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜×", 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                    global.ftoko = {
@@ -135,8 +135,8 @@ global.fakefb = {
                                "mimetype": "image/jpeg",
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
-                           "title": wm, //Kasih namalu 
-                           "description": "Private Bot by Fangz", 
+                           "title": "「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」", //Kasih namalu 
+                           "description": "🌱┊𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 By ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜×", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -167,9 +167,9 @@ global.fakefb = {
            },
            "message": {
                "groupInviteMessage": {
-                   "groupJid": "17608914335-1625305606@g.us",
+                   "groupJid": "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M",
                    "inviteCode": "null",
-                   "groupName": "Friends FANGZ BOT", 
+                   "groupName": "Andhyca || User 「BOT」 𝕆𝔽ℂ", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }

@@ -12,9 +12,9 @@ let pp = await conn.profilePictureUrl(m.sender, 'image')
 	"message": {
 		"groupInviteMessage": {
 			"groupJid": "6285240750713-1610340626@g.us",
-			"inviteCode": "mememteeeekkeke",
-			"groupName": "P", 
-            "caption": "Fangz BOT Official", 
+			"inviteCode": "null",
+			"groupName": "Andhyca || User 「BOT」 𝕆𝔽ℂ", 
+            "caption": "「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © 🅚Ⓘ︎︎🅝︎Ⓖ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ︎ 」", 
             'jpegThumbnail': await ( await fetch(pp)).buffer()
 		}
 	}

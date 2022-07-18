@@ -10,7 +10,7 @@ const anu = {
                         },
        message: {
                     documentMessage: {
-                    title: 'YT: FANGZ GANZ', 
+                    title: '「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © 🅚Ⓘ︎︎🅝︎Ⓖ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ︎ 」', 
                     jpegThumbnail: './thumbnail.jpg'
                           }
                         }

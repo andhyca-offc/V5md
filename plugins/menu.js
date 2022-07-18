@@ -224,24 +224,22 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `❀📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon Fangz BOT"},
-	    {title: `❀💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner Fangz BOT"},
-	    {title: `❀📔 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
+	    {title: `❀📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
+	    {title: `❀💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
 	{title: `❀📮 ${pmenus} S&K BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
-	{title: `❀🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur Fangz BOT"},
+	{title: `❀🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
 	    {title: `❀🔖 ${pmenus} ѕєωα вσт`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
-	    {title: `❀📑 ${pmenus} вυу ѕ¢яιρт`, rowId: ".owner", description: "Menampilkan list harga script BOT"},
 	    {title: `❀🌟 ${pmenus} υρgяα∂є ρяємιυм`, rowId: ".premium", description: "Menampilkan list harga upgrade premium"},
 	    {title: `❀💰 ${pmenus} ∂σηαѕι`, rowId: ".donasi", description: 'Support BOT agar on 1 Minggu non stop'},
 	{title: `❀✨ ${pmenus} Rαƚҽ`, rowId: ".rate", description: 'Support BOT agar Semangat update'},
 	{title: `❀🌐 ${pmenus} WҽႦʂιƚҽ`, rowId: ".website", description: 'Jangan lupa mampir'},
 	]
 	},{
-	title: `${htki} MENU FANGZ BOT${htka}`,
+	title: `${htki} MENU 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ ${htka}`,
 	rows: [
 	    {title: `இ💬☜ ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `இ🌱☜ ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -301,14 +299,14 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 ╰═┅═━═┅═━═┅═━––––––๑
 
-               「 *FANGZ BOT あ⁩* 」
+               「 *𝐀𝐧𝐝𝐡𝐲𝐜𝐚-𝐌𝐝ོ BOT あ⁩* 」
 `
 const listMessage = {
   text: tek,
-  footer: '📮Fangz BOT V5\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
+  footer: '📮 Jika menemukan kesalahan dan bug, error atau kesulitan dalam penggunaan, Silahkan laporkan/tanyakan kepada Owner\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `LIST FITUR`,
+  buttonText: `CLICK HERE ⎙`,
   sections
 }
   if (teks == '404') {
@@ -502,7 +500,7 @@ const listMessage = {
     
     //------- BUTTON DOC WITH EXTERNAL ADS
     // MAMPUS DI ENC :v
-    const _0x187932=_0x5c09;function _0x5c09(_0x28b840,_0x244043){const _0x1766bb=_0x1766();return _0x5c09=function(_0x5c09dc,_0x158321){_0x5c09dc=_0x5c09dc-0x1bb;let _0x4031df=_0x1766bb[_0x5c09dc];return _0x4031df;},_0x5c09(_0x28b840,_0x244043);}(function(_0x1c9e83,_0x2eef01){const _0x5e85ab=_0x5c09,_0x179660=_0x1c9e83();while(!![]){try{const _0x4c7814=-parseInt(_0x5e85ab(0x1d0))/0x1*(-parseInt(_0x5e85ab(0x1bd))/0x2)+parseInt(_0x5e85ab(0x1c4))/0x3*(parseInt(_0x5e85ab(0x1bf))/0x4)+parseInt(_0x5e85ab(0x1cc))/0x5*(-parseInt(_0x5e85ab(0x1d1))/0x6)+parseInt(_0x5e85ab(0x1c1))/0x7*(parseInt(_0x5e85ab(0x1bc))/0x8)+parseInt(_0x5e85ab(0x1cd))/0x9*(-parseInt(_0x5e85ab(0x1c7))/0xa)+parseInt(_0x5e85ab(0x1cb))/0xb*(-parseInt(_0x5e85ab(0x1be))/0xc)+parseInt(_0x5e85ab(0x1ce))/0xd;if(_0x4c7814===_0x2eef01)break;else _0x179660['push'](_0x179660['shift']());}catch(_0x2b3360){_0x179660['push'](_0x179660['shift']());}}}(_0x1766,0x70ad5));let buttonMessage={'document':{'url':sgc},'mimetype':td,'fileName':global['wm'],'fileLength':fsizedoc,'pageCount':fpagedoc,'contextInfo':{'forwardingScore':0x22b,'isForwarded':!![],'externalAdReply':{'mediaUrl':global[_0x187932(0x1c8)],'mediaType':0x2,'previewType':_0x187932(0x1c9),'title':global['titlebot'],'body':global['titlebot'],'thumbnail':await(await fetch(thumb))[_0x187932(0x1ca)](),'sourceUrl':sgc}},'caption':text,'footer':botdate,'buttons':[{'buttonId':'.owner','buttonText':{'displayText':_0x187932(0x1bb)},'type':0x1},{'buttonId':_0x187932(0x1c5),'buttonText':{'displayText':_0x187932(0x1c0)},'type':0x1},{'buttonId':_0x187932(0x1c6),'buttonText':{'displayText':'Donasi'},'type':0x1}],'headerType':0x6};await conn[_0x187932(0x1c2)](m[_0x187932(0x1cf)],buttonMessage,{'quoted':m,'mentionedJid':[m[_0x187932(0x1c3)]]});function _0x1766(){const _0x1c60e8=['3ezQcUH','.ping','.donasi','725770ccnUBU','sig','pdf','buffer','305624SHQwwY','233195fjGJSZ','72BjUaMS','2869867kBKaey','chat','6NokiEm','72PsFaxu','Owner','1832yREmVQ','205026IsvCrH','132IBvmfp','3329164htczQJ','Speed','7315FCLnNH','sendMessage','sender'];_0x1766=function(){return _0x1c60e8;};return _0x1766();}
+    const _0x187932=_0x5c09;function _0x5c09(_0x28b840,_0x244043){const _0x1766bb=_0x1766();return _0x5c09=function(_0x5c09dc,_0x158321){_0x5c09dc=_0x5c09dc-0x1bb;let _0x4031df=_0x1766bb[_0x5c09dc];return _0x4031df;},_0x5c09(_0x28b840,_0x244043);}(function(_0x1c9e83,_0x2eef01){const _0x5e85ab=_0x5c09,_0x179660=_0x1c9e83();while(!![]){try{const _0x4c7814=-parseInt(_0x5e85ab(0x1d0))/0x1*(-parseInt(_0x5e85ab(0x1bd))/0x2)+parseInt(_0x5e85ab(0x1c4))/0x3*(parseInt(_0x5e85ab(0x1bf))/0x4)+parseInt(_0x5e85ab(0x1cc))/0x5*(-parseInt(_0x5e85ab(0x1d1))/0x6)+parseInt(_0x5e85ab(0x1c1))/0x7*(parseInt(_0x5e85ab(0x1bc))/0x8)+parseInt(_0x5e85ab(0x1cd))/0x9*(-parseInt(_0x5e85ab(0x1c7))/0xa)+parseInt(_0x5e85ab(0x1cb))/0xb*(-parseInt(_0x5e85ab(0x1be))/0xc)+parseInt(_0x5e85ab(0x1ce))/0xd;if(_0x4c7814===_0x2eef01)break;else _0x179660['push'](_0x179660['shift']());}catch(_0x2b3360){_0x179660['push'](_0x179660['shift']());}}}(_0x1766,0x70ad5));let buttonMessage={'document':{'url':sig},'mimetype':td,'fileName':global['wm'],'fileLength':fsizedoc,'pageCount':fpagedoc,'contextInfo':{'forwardingScore':0x22b,'isForwarded':!![],'externalAdReply':{'mediaUrl':global[_0x187932(0x1c8)],'mediaType':0x2,'previewType':_0x187932(0x1c9),'title':global['titlebot'],'body':global['titlebot'],'thumbnail':await(await fetch(thumb))[_0x187932(0x1ca)](),'sourceUrl':sgc}},'caption':text,'footer':botdate,'buttons':[{'buttonId':'.owner','buttonText':{'displayText': '🌹 Owner'},'type':0x2},{'buttonId':_0x187932(0x1c5),'buttonText':{'displayText': '🐾 Speed'},'type':0x2},{'buttonId':_0x187932(0x1c6),'buttonText':{'displayText':'📮 Donasi'},'type':0x1}],'headerType':0x6};await conn[_0x187932(0x1c2)](m[_0x187932(0x1cf)],buttonMessage,{'quoted':m,'mentionedJid':[m[_0x187932(0x1c3)]]});function _0x1766(){const _0x1c60e8=['3ezQcUH','.ping','.donasi','725770ccnUBU','sig','pdf','buffer','305624SHQwwY','233195fjGJSZ','72BjUaMS','2869867kBKaey','chat','6NokiEm','72PsFaxu','Owner','1832yREmVQ','205026IsvCrH','132IBvmfp','3329164htczQJ','Speed','7315FCLnNH','sendMessage','sender'];_0x1766=function(){return _0x1c60e8;};return _0x1766();}
     
 //-------DOC TEMPLATE
     const message = {
@@ -513,35 +511,35 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By Fangz TEAM',
+            footer: titlebot + '\n「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜× 」',
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: `${namebot}`,
-                        url: 'https://s.id/Fangzganz'
+                        displayText: '📸 Instagram Owner',
+                        url: sig
                     }
                 },
                 {
                     urlButton: {
-                        displayText: 'Group Official',
+                        displayText: '💌 Group Official',
                         url: sgc
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner',
+                        displayText: '🌹 Owner',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Speed',
+                        displayText: '🐾 Speed',
                         id: '.ping'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi',
+                        displayText: '📮 Donasi',
                         id: '.donasi'
                     }
                 },
@@ -553,7 +551,7 @@ const listMessage = {
     //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, '[❗] Maaf, fitur ini sedang dalam perbaikan', m)
     throw e
   }
 }

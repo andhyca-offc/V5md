@@ -60,7 +60,6 @@ const sections = [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌐 • Website", rowId: ".website"},
-	{title: "🌎 • Script", rowId: ".sc"},
 	{title: "🏮 • Youtube", rowId: ".fyt"},
 	]
     },{

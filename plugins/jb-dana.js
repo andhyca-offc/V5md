@@ -27,8 +27,8 @@ Pastikan saldo kamu mencukupi untuk bertransaksi!
 ❗KLIK *SUDAH BAYAR* JIKA SUDAH MEMBAYAR!
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'QRIS', url: 'https://telegra.ph/file/4d91b25a776179f342588.jpg'}},
-    {index: 4, quickReplyButton: {displayText: 'Sudah membayar', id: '.sudahbayar'}},
+    {index: 1, urlButton: {displayText: '📜 QRIS', url: 'https://telegra.ph/file/4d91b25a776179f342588.jpg'}},
+    {index: 4, quickReplyButton: {displayText: '🗒️ Sudah Membayar', id: '.sudahbayar'}},
 ]
 let tm = {
 text: text,

@@ -65,7 +65,7 @@ var hsl = `
  ➕ 💹 Uang = [ ${zero4} ]
  ➕ ✨ Exp = [ ${zero5} ] 		 
  ➕ 😍 Order Selesai = +1
-➕  📥Total Order Sebelumnya : ${order}
+ ➕ 📥Total Order Sebelumnya : ${order}
 ${wm}
 `
 

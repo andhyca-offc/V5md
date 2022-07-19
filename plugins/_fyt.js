@@ -11,10 +11,10 @@ let pp = await conn.profilePictureUrl(m.sender, 'image')
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "6285240750713-1610340626@g.us",
-			"inviteCode": "mememteeeekkeke",
-			"groupName": "P", 
-            "caption": "YT: FANGZ BOT", 
+			"groupJid": "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M",
+			"inviteCode": "null",
+			"groupName": "Official Group Botz", 
+            "caption": "「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」", 
             'jpegThumbnail': await ( await fetch(pp)).buffer()
 		}
 	}

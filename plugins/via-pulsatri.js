@@ -14,7 +14,7 @@ Hay👋‹, ingin Donasi?
 ®KLIK *SUDAH BAYAR* JIKA SUDAH TRANSFER 
 `
 const templateButtons = [
-    {index: 4, quickReplyButton: {displayText: 'Sudah membayar', id: '.sudahbayar'}},
+    {index: 4, quickReplyButton: {displayText: '🗒️ Sudah Membayar', id: '.sudahbayar'}},
 ]
 let tm = {
 text: text,

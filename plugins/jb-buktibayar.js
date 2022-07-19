@@ -10,8 +10,8 @@ let text = `
 ❏────
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Hubungi Owner', url: 'https://wa.me/6288215689772'}},
-    {index: 4, quickReplyButton: {displayText: 'Bukti', id: '.order Bukti pembayaran Nya'}},
+    {index: 1, urlButton: {displayText: '📞 Hubungi Owner', url: 'https://wa.me/6288215689772'}},
+    {index: 4, quickReplyButton: {displayText: '📩 Bukti', id: '.order Bukti pembayaran Nya'}},
 ]
 let tm = {
 text: text,

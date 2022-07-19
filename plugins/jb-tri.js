@@ -1,33 +1,19 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `${htki} PULSA ${htka}
+let text = `${htki} TRI3 ${htka}
 
-👋‘‹, ingin melanjutkan pembayaran?
+Hay👋‹, ingin Donasi?
 
 💌 *Pembayaran*
-💳 Via: Pulsa Tri3
-📞 Nomor: 0895394988123
-👤 A/n: Fangz
-📦 Mitra: Fangz BOT
+💳 Via: Pulsa Xl Alata
+📞 Nomor: 087829536442
+👤 A/n: Ⓚ︎🅘︎Ⓝ︎🅖︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ
+📝 Mitra: 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ
 💰 Metode pembayaran: Online ( ~Cod~ )
 
-📣 *Beli*
 
-Apk TokoBot: https://app.bukaolshop.com/toko/tokobot
-
-Apk FangzApp:https://web.jagel.id/store/fangzapp
-
-Toko Website:https://toko.ly/TokoBot   (Non apk)
-
-✏️ _Informasi Pembayaran_
-
-Pembayaran Sewa hanya dapat menggunakan saldo.
-Pastikan saldo kamu mencukupi untuk bertransaksi!
-
-
-❗KLIK *SUDAH BAYAR* JIKA SUDAH MEMBAYAR!
+®KLIK *SUDAH BAYAR* JIKA SUDAH TRANSFER 
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'TOPUP', url: 'Konter Terdekat'}},
     {index: 4, quickReplyButton: {displayText: 'Sudah membayar', id: '.sudahbayar'}},
 ]
 let tm = {
@@ -38,7 +24,9 @@ image: {url: fla + 'Donasi'}
 }
 conn.sendMessage(m.chat, tm, m)
 }
-handler.command = /^pulsatri$/i
+handler.help = ['tri']
+handler.tags = ['info']
+handler.command = /^(donasitri)$/i
 handler.private = true
 
 export default handler

@@ -1026,15 +1026,15 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Fitur ini Hanya bisa di akses untuk developer !',
-        owner: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Fitur ini Hanya bisa di akses untuk Owner !',
-        mods: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Fitur ini Hanya bisa di akses khusus Moderator !',
-        premium: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Fitur ini Hanya bisa di akses User Premium !',
-        group: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Fitur ini Hanya bisa di Akses Di Group !',
-        private: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Fitur ini Hanya bisa di akses Di private Chat !',
-        admin: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Lu Admin? Hanya bisa di akses Admin Group !',
-        botAdmin: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Fitur ini Hanya bisa di gunakan ketika Bot Menjadi Admin !',
-        restrict: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n Restrict Belum Nyala !',
+        rowner: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Fitur ini Hanya bisa di akses untuk developer !',
+        owner: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Fitur ini Hanya bisa di akses untuk Owner !',
+        mods: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Fitur ini Hanya bisa di akses khusus Moderator !',
+        premium: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Fitur ini Hanya bisa di akses User Premium !',
+        group: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Fitur ini Hanya bisa di Akses Di Group !',
+        private: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Fitur ini Hanya bisa di akses Di private Chat !',
+        admin: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Lu Admin? Hanya bisa di akses Admin Group !',
+        botAdmin: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Fitur ini Hanya bisa di gunakan ketika Bot Menjadi Admin !',
+        restrict: '*𝗙𝗜𝗧𝗨𝗥 𝗗𝗜 𝗧𝗢𝗟𝗔𝗞* 〄\n *ᴄᴏᴍᴍᴀɴᴅ* • Restrict Belum Nyala !',
     }[type]
     if (msg) return conn.reply(m.chat, msg, false, { quoted: m, contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaUrl: sig,

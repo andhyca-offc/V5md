@@ -223,15 +223,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
       const sections = [
    {
 	title: `${htki} RULLES ${htka}`,
-        rows: [
-	{title: `⚠︎📮 ${pmenus} S&K BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
-        ]
-    },{
-        title: `${htki} MAIN ${htka}`,
+        rowstitle: `${htki} MAIN ${htka}`,
 	rows: [
 	    {title: `✿📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
 	    {title: `❀💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
-
+	{title: `✿📮 ${pmenus} S&K BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
 	{title: `❀🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
 	]
     },{
@@ -253,8 +249,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `✦🧩☜ ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
 	{title: `✦🐚☜ ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `✦📑☜ ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `✦⛩️☜ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu suka anims ya bang?"},
-	{title: `✦🔞☜ ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Pilih menu dengan bijak!"},
+	{title: `✦⛩️☜ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
+	{title: `✦🔞☜ ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
 	{title: `✦🌟☜ ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `✦🎭☜ ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
 	{title: `✦📖☜ ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},

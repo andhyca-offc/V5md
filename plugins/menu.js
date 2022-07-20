@@ -222,11 +222,16 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     let mpt = clockString(_mpt)
       const sections = [
    {
-	title: `${htki} MAIN ${htka}`,
+	title: `${htki} RULLES ${htka}`,
+        rows: [
+	{title: `⚠︎📮 ${pmenus} S&K BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
+        ]
+    },{
+        title: `${htki} MAIN ${htka}`,
 	rows: [
 	    {title: `✿📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
 	    {title: `❀💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
-	{title: `✿📮 ${pmenus} S&K BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
+
 	{title: `❀🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ"},
 	]
     },{
@@ -248,8 +253,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `✦🧩☜ ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
 	{title: `✦🐚☜ ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `✦📑☜ ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `✦⛩️☜ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-	{title: `✦🔞☜ ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+	{title: `✦⛩️☜ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu suka anims ya bang?"},
+	{title: `✦🔞☜ ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Pilih menu dengan bijak!"},
 	{title: `✦🌟☜ ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `✦🎭☜ ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
 	{title: `✦📖☜ ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
@@ -276,26 +281,26 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 ────━⃝┅ *D A S H B O A R D* ┅⃝━────
 
 ╭━━━━「 *I N F O  C M D* 」
-┝ *🅟* = Premium
-┝ *Ⓛ* = Limit
+┝⚠︎ *🅟* = Premium
+┝⚠︎ *Ⓛ* = Limit
 ╰═┅═━–––๑
 
 ╭━━━━「 *Ʋser Ɩnfσrmαtισn* 」
-┝🌸• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┝🌸• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-┝🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┝🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+┆✦ *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+┆✦ *ᴛᴀɢs:* @${m.sender.split`@`[0]}
+┆✦ *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┆✦ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 ╰═┅═━═┅═━═┅═━––––––๑
 
 
 ╭═┅═「 *Bσt Ɩnfσrmαtισn* 」
-┝⏳• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-┝⏲️• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-┝👤• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
-┝🎟️• *ʟɪᴍɪᴛ:* ${usrs.limit}
-┝📊• *ʟᴇᴠᴇʟ:* ${usrs.level}
-┝🏆• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
-┝📛• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
+┆⫹⫺• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
+┆⫹⫺• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+┆⫹⫺• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
+┆⫹⫺• *ʟɪᴍɪᴛ:* ${usrs.limit}
+┆⫹⫺• *ʟᴇᴠᴇʟ:* ${usrs.level}
+┆⫹⫺• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
+┆⫹⫺• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 ╰═┅═━═┅═━═┅═━––––––๑
 
@@ -548,7 +553,7 @@ const listMessage = {
         //await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
         
     //------------------- BUTTON VID
-    //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+    //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4', [['🐾 Speed', '.ping'],['🌹 Owner', '.owner'],['📮 Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) {
     conn.reply(m.chat, '[❗] Maaf, fitur ini sedang dalam perbaikan', m)

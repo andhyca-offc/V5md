@@ -14,7 +14,7 @@ Hay👋‹, ingin Donasi?
 ®KLIK *SUDAH BAYAR* JIKA SUDAH TRANSFER 
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '📋 Qr Code', url: 'https://telegra.ph/file/0f1f1b37a5577c73be0f6.jpg'}},
+    {index: 1, urlButton: {displayText: '📜 Qr Code', url: 'https://telegra.ph/file/0f1f1b37a5577c73be0f6.jpg'}},
     {index: 4, quickReplyButton: {displayText: '🗒️ Sudah Membayar', id: '.sudahbayar'}},
 ]
 let tm = {

@@ -1040,14 +1040,16 @@ global.dfail = (type, m, conn) => {
 mediaUrl: sig,
 title: wm,
 body: titlebot,
-sourceUrl: sgc
+sourceUrl: sig
+
+
   }
  } 
 })
     let msgg = {
-    	unreg: '❗ᴀᴋꜱᴇꜱ ᴅɪ ᴛᴏʟᴀᴋ, ᴀɴᴅᴀ ᴘᴇʀʟᴜ ᴠᴇʀɪꜰɪᴋᴀꜱɪ ꜱᴇʙᴇʟᴜᴍ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴀɴᴅʜʏᴄᴀ ʙᴏᴛᴢ\n\n📮➞ ᴋʟɪᴄᴋ ᴠᴇʀɪꜰɪᴋᴀꜱɪ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ'
+    	unreg: '💌 ᴀᴋꜱᴇꜱ ɪɴɪ ᴅɪ ᴛᴏʟᴀᴋ, ᴀɴᴅᴀ ᴘᴇʀʟᴜ ᴠᴇʀɪꜰɪᴋᴀꜱɪ ꜱᴇʙᴇʟᴜᴍ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴀɴᴅʜʏᴄᴀ ʙᴏᴛᴢ\n\n📮➞ ᴋʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ᴠᴇʀɪꜰɪᴋᴀꜱɪ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴠᴇʀɪғɪᴋᴀsɪ ɴᴏᴍᴏʀ ᴀɴᴅᴀ ᴅɪ ᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛᴢ''
 }[type]
-if (msgg) return conn.sendButton(m.chat, `${global.htki} VERIFY ${global.htka}`, msgg, null, ['- ᴠᴇʀɪғʏ -', '/verify'],m)
+if (msgg) return conn.sendButton(m.chat, `${global.htki} VERIFY ${global.htka}`, msgg, null, ['▣ 𝐕𝐄𝐑𝐈𝐅𝐘𝐂𝐀𝐓𝐈𝐎𝐍 ▣', '/verify'],m)
 }
 
 let file = global.__filename(import.meta.url, true)

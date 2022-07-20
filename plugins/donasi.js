@@ -8,11 +8,11 @@ const sections = [
    {
 	title: `METODE`,
 	rows: [
-	    {title: "?Dana", rowId: '.donasidana', description: 'Bayar melalui Dana' },
-	    {title: "?Gopay", rowId: '.donasigopay', description: 'Bayar melalui Gopay' },
-	{title: "?Ovo", rowId: '.donasiovo', description: 'Bayar melalui Ovo' },
-	{title: "?Pulsa Indosat", rowId: '.donasismartfren', description: 'Bayar melalui pulsa' },
-	{title: "?Pulsa Xl Alata", rowId: '.donasiastri', description: 'Bayar melalui pulsa' },
+	    {title: "💸 ✦ Dana", rowId: '.donasidana', description: 'Bayar melalui Dana' },
+	    {title: "💶 ✦ Gopay", rowId: '.donasigopay', description: 'Bayar melalui Gopay' },
+	{title: "💵 ✦ Ovo", rowId: '.donasiovo', description: 'Bayar melalui Ovo' },
+	{title: "💷 ✦ Pulsa Indosat", rowId: '.donasismartfren', description: 'Bayar melalui pulsa' },
+	{title: "💴 ✦ Pulsa Xl Alata", rowId: '.donasiastri', description: 'Bayar melalui pulsa' },
 	]
     }, 
 

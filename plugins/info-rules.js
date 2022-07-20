@@ -43,7 +43,8 @@ _Cara penggunaan Fangz BOT Agar terhindar dari Suspand_
 5. WhatsApp Bot bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Link', url: 'https://fangzbot.websites.co.in/'}},
+    {index: 1, urlButton: {displayText: '📸 Instagram Owner', url: 'https://instagram.com/andhycarsrofficial'}},
+    {index: 4, quickReplyButton: {displayText: '📮 Donasi', id: '.donasi'}},l
 ]
 let tm = {
 text: text,

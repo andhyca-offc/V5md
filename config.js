@@ -59,9 +59,9 @@ global.nameown = '🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍ�
 
 /*⫘⫘⫘⫘ STAFF ⫘⫘⫘⫘⫘*/
 global.owner = [
-  ['62895330584590'], //Owner1
-  ['6287829536442'], //Owner2
-  ['6285794408499'], //Owner3
+  ['62895330584590', '𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ', true], //Owner1
+  ['6287829536442' , '𝚂𝚑𝚒𝚛𝚘𝙱𝚘𝚝𝚣-𝙼𝙳', true], //Owner2
+  ['6285794408499', 'Mr•Andhycaˢᵖ', true], //Owner3
   ['6285872761910', '🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ', true] //Ini buat kamu!
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
@@ -130,7 +130,7 @@ global.giflogo = 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
 /*⫘⫘⫘⫘ LOADING ⫘⫘⫘⫘⫘*/
-global.wait = '```▁ ▂ ▄ ▅ ▆ ▇ █ 𝙻𝙾𝙰𝙳𝙸𝙽𝙶. . .```'
+global.wait = '```[█████▒▒▒▒▒] 𝙻𝙾𝙰𝙳𝙸𝙽𝙶. . .```'
 global.eror = '```「⚠️」 Server Are Error...```'
 
 /*⫘⫘⫘⫘ DOCUMENT ⫘⫘⫘⫘⫘*/

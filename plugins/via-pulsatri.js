@@ -11,7 +11,7 @@ Hay👋‹, ingin Donasi?
 💰 Metode pembayaran: Online ( ~Cod~ )
 
 
-®KLIK *SUDAH BAYAR* JIKA SUDAH TRANSFER 
+® KLIK *🗒️ Sudah Membayar* JIKA SUDAH TRANSFER 
 `
 const templateButtons = [
     {index: 4, quickReplyButton: {displayText: '🗒️ Sudah Membayar', id: '.sudahbayar'}},

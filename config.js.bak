@@ -124,10 +124,10 @@ global.author = global.wm //Wm author
 
 /*⫘⫘⫘⫘ LOGO ⫘⫘⫘⫘⫘*/
 // INI JUGA GANTI SETERAH MU
-global.thumb = 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg' //Thumbnail nya
-global.thumb2 = 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg' //Thumbnail 2
-global.thumbbc = 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg' //Image Bcgcb
-global.giflogo = 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg' //Bebas
+global.thumb = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Thumbnail nya
+global.thumb2 = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Thumbnail 2
+global.thumbbc = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Image Bcgcb
+global.giflogo = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Bebas
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 //global.fla Jangan di ganti

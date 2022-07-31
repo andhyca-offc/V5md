@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 let handler = async (m, { conn }) => {
 	let url = loli[Math.floor(Math.random() * loli.length)]
-	conn.sendButton(m.chat, '『 𝗗𝗢𝗡𝗘 』\n• Created 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ\n• Supported 𝚂𝚑𝚒𝚛𝚘𝙱𝚘𝚝𝚣-𝙼𝙳ོ あ', wm, url, [['🚀 Loli','.loli']],m)
+	conn.sendButton(m.chat, 'YT: FANGZ BOT', wm, url, [['NEXT','.loli']],m)
 }
 handler.command = /^(loli)$/i
 handler.tags = ['anime']

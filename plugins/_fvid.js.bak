@@ -12,10 +12,10 @@ const anu = {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title":"「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」",
+                 "title":"hallo bang hehe",
                  "h": `Hmm`,
                  'seconds': '182', 
-                 'caption': 'Jangan Lupa Donasi',
+                 'caption': 'Nothing ^^',
                  'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                         }
                        }

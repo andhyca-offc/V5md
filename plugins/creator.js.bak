@@ -16,23 +16,23 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ⪧ Berbicaralah yang sopan & tidak spam
 ⪧ Owner Hanya merespon yang berkaitan dengan BOT
 ⪧ No Telp
-⪧ Chat aneh = Block`
+⪧ Chat gajelas = Block`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*💌 Nama* : Andhyca
-*✉️ Nama RL* : 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵇᵒᵗᶻ
+*💌 Nama* : Fangz
+*✉️ Nama RL* : FangzBOT
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : Privateˡᵃᵘᶜʰ
-*🎨 Umur* : Privateʸᵉᵃʳˢ ᵒˡᵈ
-*🧮 Kelas* : Privateᶜˡᵃˢˢ
-*🧩 Hobby* : Ngebot, Menulis, Dan Membuat Sketch
-*💬 Sifat* : Baik, Ramah, Mudah Memahami Orang Lain
-*🗺️ Tinggal* : Indonesia, jawa, bandung
-*❤️ Suka* : Semuanya Kecuali 🪵 Dan 🪨
-*💔 Benci* : Jin, Syetan, Dajjal, Manusia Caper,
+*⏰ Tanggal lahir* : 25 oktober 2007
+*🎨 Umur* : 15
+*🧮 Kelas* : 9
+*🧩 Hobby* : Nonton henta*, main game, Recode script
+*💬 Sifat* : Baik, hode, softboy, tydack ramah, g*y
+*🗺️ Tinggal* : Indonesia, jawa, bogor
+*❤️ Suka* : warnah pink & hitam, trap, waifu wangy, kucing
+*💔 Benci* : anak alay, autis, anak epep, sok asik
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [70.7%]
@@ -47,9 +47,9 @@ let teksbio = `${htki} *BIODATA* ${htka}
 📷 *Instagram:* ${sig}
 🐈 *Github:* ${sgh}
 🥏 *Whatsapp* wa.me/${nomorown}
-🌐 *Discord:* https://discord.com/
+🌐 *Discord:* Soon
 🌏 *Website:* https://fangzbot.websites.co.in/
-🎶 *Tiktok:* https://tiktok.com/
+🎶 *Tiktok:* https://tiktok.com/@fangzjb
 
 `
   let teks = ' '

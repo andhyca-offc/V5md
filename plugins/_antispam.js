@@ -5,9 +5,9 @@ export async function all(m) {
     if (m.sender in this.spam) {
         this.spam[m.sender].count++
         if (m.messageTimestamp.toNumber() - this.spam[m.sender].lastspam > 10) {
-            if (this.spam[m.sender].count > 5) {
-                //global.db.data.users[m.sender].banned = true
-                m.reply('*⌦ kamu terdeteksi spam\n*Beri jeda 5 detik* !*')
+            if (this.spam[m.sender].count > 7) {
+                global.db.data.users[m.sender].banned = true
+                m.reply('*⌦ kamu akan di banned*\n*karena spam.*\n\nLaporkan ke owner dengan cara klik link berikut\n\n📮 wa.me/62895394988123?text=📫Hallo+fangz+no+saya+di+banned+tolong+di+unban')
             }
             this.spam[m.sender].count = 0
             this.spam[m.sender].lastspam = m.messageTimestamp.toNumber()

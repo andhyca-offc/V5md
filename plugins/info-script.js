@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `๑–––┅═━🌹NGAPAIN┅═━–––๑
+let text = `๑–––┅═━🌹UNTUK APA?┅═━–––๑
            
       📮 Private. Di Yt Ada Banyak
 `

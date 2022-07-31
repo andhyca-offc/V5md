@@ -11,9 +11,9 @@ let pp = await conn.profilePictureUrl(m.sender, 'image')
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M",
-			"inviteCode": "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M",
-			"groupName": "Andhyca || User 「BOT」 𝕆𝔽ℂ", 
+			"groupJid": "6285240750713-1610340626@g.us",
+			"inviteCode": "mememteeeekkeke",
+			"groupName": "P", 
             "caption": "Sudah Versi terbaru", 
             'jpegThumbnail': await ( await fetch(pp)).buffer()
 		}

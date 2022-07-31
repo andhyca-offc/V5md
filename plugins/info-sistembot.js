@@ -1,13 +1,13 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
-By 𝗔𝗻𝗱𝗵𝘆𝗰𝗮
+     Sistem Bot
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🌀 *HALLO, ADA APA?* 🌀', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🌸 *BERJALAN DENGAN BAIK* 🌸', 'status@broadcast')
 }
-handler.customPrefix = /^(woi|halo|hallo|test|tes|p|cok)$/i
-handler.command = new RegExp
-
+handler.help = ['botstats']
+handler.tags = ['info']
+handler.command = /^(botstats)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

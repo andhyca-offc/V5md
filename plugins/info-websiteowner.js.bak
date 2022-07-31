@@ -8,7 +8,7 @@ conn.sendMessage(m.chat, {
   templateButtons: [{
     index: 1,
     urlButton: {
-      displayText: `📸 Instagram Owner`,
+      displayText: `Link`,
       url: 'https://instagram.com/andhycarsrofficial'
     }
   }],

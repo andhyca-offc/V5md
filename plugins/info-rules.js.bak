@@ -33,6 +33,6 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m})
 handler.help = ['rulesbot', 'peraturan']
 handler.tags = ['info']
 handler.command = /^(rules(bot)?|peraturan)$/i
-handler.private = false
+handler.private = true
 
 export default handler

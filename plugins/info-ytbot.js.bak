@@ -3,21 +3,21 @@ let handler = async (m, { conn, args, command }) => {
 let totalf = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length;
- await conn.sendButton(m.chat, `Total Fitur Bot Saat ini: ${totalf}\n`,wm + '\n\n' + botdate, giflogo, [['MENU','.menu']], m, {
+ await conn.sendButton(m.chat, `YT: FANGZ BOT\n`,wm + '\n\n' + botdate, giflogo, [['OK','ok']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
                         title: bottime,
-                        body: '「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」',          previewType: 0,
+                        body: 'By Fangz',          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
-                        sourceUrl: sig
+                        sourceUrl: 'https://youtube.com/channel/UCACHvReRmw2fxgMutPFCBWg'
                       }}
 })
 }
 
 
-handler.help = ['totalfitur']
+handler.help = ['ytbot']
 handler.tags = ['info']
-handler.command = ['totalfitur']
+handler.command = ['ytbot']
 export default handler

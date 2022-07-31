@@ -11,7 +11,7 @@ https://chat.whatsapp.com/FlUqXS0bje12Fxdw8BVykk
 https://chat.whatsapp.com/LMXN8ZkUmvfHGsURriEJOE
 ✧──────────···──────────✧
 `.trim()
-conn.sendButton(m.chat, str, `${botol}`, [['⋮☰ List Menu','.menu']],m)
+conn.sendButton(m.chat, str, `${botol}`, [['⋮☰ MENU','.menu']],m)
 }
 handler.help = ['gcbot']
 handler.tags = ['info']

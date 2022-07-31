@@ -23,7 +23,7 @@ const listMessage = {
   text: ' ',
   footer: info,
   title: null,
-  buttonText: "C E K",
+  buttonText: "💰",
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
@@ -31,7 +31,7 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m})
 }
 
 handler.help = ['pay', 'payment']
-handler.tags = ['info']
+handler.tags = ['store']
 handler.command = /^(pay(ment)?|payment)$/i
 handler.private = true
 

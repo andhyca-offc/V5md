@@ -1,21 +1,34 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `${htki} OVO ${htka}
 
-Hay👋‹, ingin Donasi?
+HayðŸ‘‹, ingin melanjutkan pembayaran?
 
 💌 *Pembayaran*
 💳 Via: Ovo
 📞 Nomor: 085794408499
-👤 A/n: Ⓚ︎🅘︎Ⓝ︎🅖︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ
-📝 Mitra: 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ
+👤 A/n: Andhyca
+📦 Mitra: Andhyca Botz
 💰 Metode pembayaran: Online ( ~Cod~ )
 
+📣 *Beli*
 
-®KLIK *SUDAH BAYAR* JIKA SUDAH TRANSFER 
+Sewa Bot: https://wa.me/62895330584590+.sewabot
+
+Buy Premium: https://wa.me/62895330584590+.premium
+
+Join GC Free 1 Day: https://wa.me/6285872761910+Owner+aku+mau+tambahin+bot+ke+grup+ku+yang+free+1+day.+boleh+gk
+
+✏️ _Informasi Pembayaran_
+
+Pembayaran Sewa hanya dapat menggunakan saldo.
+Pastikan saldo kamu mencukupi untuk bertransaksi!
+
+
+❗KLIK *SUDAH BAYAR* JIKA SUDAH MEMBAYAR!
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '📜 Qr Code', url: 'https://telegra.ph/file/503024e6364186ad45a9f.jpg'}},
-    {index: 4, quickReplyButton: {displayText: '🗒️ Sudah Membayar', id: '.sudahbayar'}},
+    {index: 1, urlButton: {displayText: '🧾 Qris Code', url: 'https://telegra.ph/file/0f1f1b37a5577c73be0f6.jpg'}},
+    {index: 4, quickReplyButton: {displayText: '📋 ️Sudah Membayar', id: '.sudahbayar'}},
 ]
 let tm = {
 text: text,
@@ -25,9 +38,7 @@ image: {url: fla + 'Donasi'}
 }
 conn.sendMessage(m.chat, tm, m)
 }
-handler.help = ['ovo']
-handler.tags = ['info']
-handler.command = /^(donasiovo)$/i
+handler.command = /^ovo$/i
 handler.private = true
 
 export default handler

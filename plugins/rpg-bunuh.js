@@ -1,4 +1,3 @@
-
 let handler = async (m, { conn }) => {
     let __timers = (new Date - global.db.data.users[m.sender].lastngojek)
     let _timers = (300000 - __timers)
@@ -20,7 +19,7 @@ let rbrb1 = (randomaku1 * 2)
 let rbrb2 = (randomaku2 * 10) 
 let rbrb3 = (randomaku3 * 1)
 let rbrb4 = (randomaku4 * 15729)
-let rbrb5 = (randomaku5 * 120)
+let rbrb5 = (randomaku5 * 50822)
 
 var zero1 = `${rbrb1}`
 var zero2 = `${rbrb2}`
@@ -28,44 +27,29 @@ var zero3 = `${rbrb3}`
 var zero4 = `${rbrb4}`
 var zero5 = `${rbrb5}`
 
-var dimas = `
-🚶⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬜⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       🛵
-✔️ Mendapatkan orderan....
+var dimas = `    
+🕵️ Mendapatkan Target.....
 `
 
-var dimas2 = `
-🚶🛵⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬜⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       
-➕ Mengantar ke tujuan....
+var dimas2 = ` 
+⚔️ Menusuk Tubuhnya..... 
 `
 
 var dimas3 = `
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬛⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🛵⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       
-➕ Sampai di tujuan....
+☠️ Target meninggal\nDan kamu mengambil barang² nya
 `
 
 var dimas4 = `
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬛⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🛵⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️ 🚶  
-➕ 💹Menerima gaji....
+💼 Hasil dari membunuh....
 `
 
 var hsl = `
-*—[ Hasil Ngojek ${name} ]—*
+*—[ Hasil ${name} ]—*
  ➕ 💹 Uang = [ ${zero4} ]
- ➕ ✨ Exp = [ ${zero5} ] 		 
- ➕ 😍 Order Selesai = +1
-➕  📥Total Order Sebelumnya : ${order}
+ ➕ ✨ Exp = [ ${zero5} ] 
+ ➕ 👮 Pelanggaran +1	 
+ ➕ ☑️ Misi Berhasil = +1
+➕  📥Total Misi Sebelumnya : ${order}
 ${wm}
 `
 
@@ -73,6 +57,7 @@ ${wm}
 global.db.data.users[m.sender].money += rbrb4
 global.db.data.users[m.sender].exp += rbrb5
 global.db.data.users[m.sender].ojekk += 1
+global.db.data.users[m.sender].warn += 1
 
 
 setTimeout(() => {
@@ -96,14 +81,16 @@ setTimeout(() => {
                      }, 10000) 
                      
                      setTimeout(() => {
-                     m.reply('🔍Mencari pelanggan.....')
+                     m.reply('🔍Mencari Target pembunuhan.....')
                      }, 0) 
   user.lastngojek = new Date * 1
     } else conn.sendButton(m.chat, `Sepertinya Anda Sudah Kecapekan Silahkan Istirahat Dulu sekitar\n🕔 *${timers}*`, wm, 'inventory', '.inv', m )
 }
+handler.help = ['bunuh']
 handler.tags = ['rpg']
-handler.command = /^(ojek)$/i
+handler.command = /^(bunuh)$/i
 handler.register = true
+handler.limit = true
 
 export default handler
 

@@ -71,6 +71,7 @@ ${htki} *SERVER* ${htka}
 
 *💻 Platform:* ${os.platform()}
 *🧿 Server:* ${os.hostname()}
+By: 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ
 ${readMore}
 *${htjava} NodeJS Memory Usage*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}

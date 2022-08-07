@@ -24,7 +24,7 @@ const listMessage = {
   text: info,
   footer: botdate,
   title: wm,
-  buttonText: "RATING",
+  buttonText: "📢 RATING 📢",
   sections
 }
 await conn.sendMessage(m.chat, listMessage)

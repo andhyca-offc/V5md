@@ -29,47 +29,34 @@ var zero4 = `${rbrb4}`
 var zero5 = `${rbrb5}`
 
 var dimas = `
-🚶⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬜⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       🛵
-✔️ Mendapatkan orderan....
+✔️ Mendapatkan pelanggan....
 `
 
 var dimas2 = `
-🚶🛵⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬜⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       
-➕ Mengantar ke tujuan....
+🥵 Mulai mengocok.....
 `
 
-var dimas3 = `
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬛⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🛵⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       
-➕ Sampai di tujuan....
+var dimas3 = `     
+🥵Ahhhh, Sakitttt!! >////<
+ 💦Crotttt.....
 `
 
 var dimas4 = `
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬛⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🛵⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️ 🚶  
-➕ 💹Menerima gaji....
+🥵💦💦Ahhhhhh😫
 `
 
 var hsl = `
-*—[ Hasil Ngojek ${name} ]—*
+*—[ Hasil Ngewe ${name} ]—*
  ➕ 💹 Uang = [ ${zero4} ]
- ➕ ✨ Exp = [ ${zero5} ] 		 
+ ➕ ✨ Exp = [ ${zero5} ] 
+ ➕ 📛 Warn = +1		 
  ➕ 😍 Order Selesai = +1
 ➕  📥Total Order Sebelumnya : ${order}
 ${wm}
 `
 
 
+global.db.data.users[m.sender].warn += 1
 global.db.data.users[m.sender].money += rbrb4
 global.db.data.users[m.sender].exp += rbrb5
 global.db.data.users[m.sender].ojekk += 1
@@ -102,7 +89,7 @@ setTimeout(() => {
     } else conn.sendButton(m.chat, `Sepertinya Anda Sudah Kecapekan Silahkan Istirahat Dulu sekitar\n🕔 *${timers}*`, wm, 'inventory', '.inv', m )
 }
 handler.tags = ['rpg']
-handler.command = /^(ojek)$/i
+handler.command = /^(ngewe)$/i
 handler.register = true
 
 export default handler

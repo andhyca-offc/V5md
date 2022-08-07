@@ -29,39 +29,23 @@ var zero4 = `${rbrb4}`
 var zero5 = `${rbrb5}`
 
 var dimas = `
-🚶⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬜⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       🛵
-✔️ Mendapatkan orderan....
+👮Mengejar Pencuri....
 `
 
 var dimas2 = `
-🚶🛵⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬜⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       
-➕ Mengantar ke tujuan....
+👮Menangkap pencuri....
 `
 
 var dimas3 = `
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬛⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🛵⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️       
-➕ Sampai di tujuan....
+🚔Membawa ke kantor polisi\nDan di penjara
 `
 
 var dimas4 = `
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜⬜⬛⬛⬜⬜⬜⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🛵⬛⬛
-🏘️🏘️🏘️🏘️🌳  🌳 🏘️ 🚶  
 ➕ 💹Menerima gaji....
 `
 
 var hsl = `
-*—[ Hasil Ngojek ${name} ]—*
+*—[ Hasil Polisi ${name} ]—*
  ➕ 💹 Uang = [ ${zero4} ]
  ➕ ✨ Exp = [ ${zero5} ] 		 
  ➕ 😍 Order Selesai = +1
@@ -102,7 +86,7 @@ setTimeout(() => {
     } else conn.sendButton(m.chat, `Sepertinya Anda Sudah Kecapekan Silahkan Istirahat Dulu sekitar\n🕔 *${timers}*`, wm, 'inventory', '.inv', m )
 }
 handler.tags = ['rpg']
-handler.command = /^(ojek)$/i
+handler.command = /^(polisi)$/i
 handler.register = true
 
 export default handler

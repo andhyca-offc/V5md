@@ -29,8 +29,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 		m.reply(stiker)
 	}
 }
-handler.help = ['stiker']
-handler.tags = ['general']
+handler.help = ['stiker','s']
+handler.tags = ['sticker']
 handler.alias = ['stiker', 'sticker', 'sgif', 'stikergif', 'stickergif']
 handler.command = /^s(tic?ker)?(gif)?$/i
 
@@ -41,8 +41,8 @@ const isUrl = (text) => text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%
 async function createSticker(img, url, packName, authorName, quality) {
 	let stickerMetadata = {
 		type: 'full',
-		pack: packName,
-		author: authorName,
+		pack: stickpack,
+		author: stickauth,
 		quality
 	}
 	return (new Sticker(img ? img : url, stickerMetadata)).toBuffer()

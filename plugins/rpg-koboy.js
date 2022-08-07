@@ -104,7 +104,6 @@ let handler = (m, { conn, usedPrefix, command, text }) => {
 ])
   }
 }
-handler.help = ['koboy']
 handler.tags = ['rpg']
 handler.command = /^(koboy)/i
 

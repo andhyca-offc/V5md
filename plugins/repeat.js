@@ -1440,8 +1440,9 @@ handler.tags = ['tools']
 handler.command = /^(repeat)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = true
+handler.premium = false
 handler.group = false
+handler.limit = true
 handler.private = false
 
 handler.admin = false

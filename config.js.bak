@@ -45,30 +45,30 @@ global.sdc = 'https://youtube.com/channel/UCACHvReRmw2fxgMutPFCBWg' //Discord Mu
 global.snh = 'https://nhentai.net/g/365296/' //Make ini ana gausah di ganti.
 
 /*⫘⫘⫘⫘ALL PAYMENT⫘⫘⫘⫘⫘*/
-global.pdana = '088215689772' //Dana
-global.povo = '088215689772' //Ovo
-global.pgopay = '088215689772' //Gopay
-global.ppulsa = '088215689772' //Pulsa 
-global.ppulsa2 = '0895394988123' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
-global.psaweria = 'https://saweria.co/FangzBot' //Saweria
+global.pdana = '085872761910' //Dana
+global.povo = '085794408499' //Ovo
+global.pgopay = '085872761910' //Gopay
+global.ppulsa = '085872761910' //Pulsa 
+global.ppulsa2 = '085794408499' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
+global.psaweria = '-' //Saweria
 
 /*⫘⫘⫘⫘ GLOBAL NOMOR ⫘⫘⫘⫘⫘*/
-global.nomorbot = '62895394988123' //Nomor Bot mu
-global.nomorown = '6288215689772' //Nomormu
-global.namebot = 'Fangz BOT' //Nama bot mu
-global.nameown = 'Fangz Ganz' //Nama mu
+global.nomorbot = '62895330584590' //Nomor Bot mu
+global.nomorown = '6285872761910','6285794408499','6287829536442','62895330584590' //Nomormu
+global.namebot = '𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' //Nama bot mu
+global.nameown = '🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ' //Nama mu
 
 
 /*⫘⫘⫘⫘ STAFF ⫘⫘⫘⫘⫘*/
 global.owner = [
   ['62895330584590', '𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ', true], //Owner1
   ['6287829536442' , '𝚂𝚑𝚒𝚛𝚘𝙱𝚘𝚝𝚣-𝙼𝙳', true], //Owner2
-  ['6285794408499', 'Mr•Andhycaˢᵖ', true], //Owner3
+  ['6285794408499', 'Mr•Andhycaʳˢʳ', true], //Owner3
   ['6285872761910', '🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ', true] //Ini buat kamu!
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['6285872761910','6285794408499','6287829536442','62895330584590'] // Want some help?
-global.prems = ['6285872761910','6285794408499','6287829536442','62895330584590'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.mods = ['6285794408499'] // Want some help?
+global.prems = ['62895330584590'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*⫘⫘⫘⫘ APIKEY ⫘⫘⫘⫘⫘*/
@@ -124,10 +124,10 @@ global.author = global.wm //Wm author
 
 /*⫘⫘⫘⫘ LOGO ⫘⫘⫘⫘⫘*/
 // INI JUGA GANTI SETERAH MU
-global.thumb = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Thumbnail nya
-global.thumb2 = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Thumbnail 2
-global.thumbbc = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Image Bcgcb
-global.giflogo = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Bebas
+global.thumb = 'https://telegra.ph/file/5f3ffac4ce78367311477.jpg' //Thumbnail nya
+global.thumb2 = 'https://telegra.ph/file/5f3ffac4ce78367311477.jpg' //Thumbnail 2
+global.thumbbc = 'https://telegra.ph/file/5f3ffac4ce78367311477.jpg' //Image Bcgcb
+global.giflogo = 'https://telegra.ph/file/5f3ffac4ce78367311477.jpg' //Bebas
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 //global.fla Jangan di ganti
@@ -143,7 +143,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/0b42f219535e17ade5e48.jpg' //Ganti jadi foto Bot
+global.thumbdoc = 'https://telegra.ph/file/5f3ffac4ce78367311477.jpg' //Ganti jadi foto Bot
 
 /*⫘⫘⫘⫘ FAKE SIZE ⫘⫘⫘⫘⫘*/
 global.fsizedoc = '99999999999999' // 10TB
@@ -160,13 +160,13 @@ global.dmenuf = '┗––––––––––✦' //footer
 global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
 global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
-global.cmenub = '┊︎⩩ ' //body
+global.cmenub = '┊︎ꪶ ཻུ۪۪ꦽꦼ̷⸙ ' //body
 global.cmenuf = '┗━═┅═━––––––๑\n' //footer
-global.cmenua = '\n                          𝗕𝘆 𝐴𝑛𝑑ℎ𝑦𝑐𝑎\n                ⌕ ❙❘❙❘❘❚❙❘❘❚❘❘❘ ❙❘❘❙ ❘❙❚❘❘❚ ❘❙❙❙❚❙❘❙❚❘❙ ⌕\n     ' //after
+global.cmenua = '\n𝗕𝘆 𝐴𝑛𝑑ℎ𝑦𝑐𝑎\n                ⌕ ❙❘❙❘❘❚❙❘❘❚❘❘❘ ❙❘❘❙ ❘❙❚❘❘❚ ❘❙❙❙❚❙❘❙❚❘❙ ⌕\n                ' //after
 global.pmenus = '┊' //pembatas menu selector
 
-global.htki = '–––––– 『' // Hiasan Titile (KIRI)
-global.htka = '』 ––––––' // Hiasan Title  (KANAN)
+global.htki = '––––––⦅' // Hiasan Titile (KIRI)
+global.htka = '⦆––––––' // Hiasan Title  (KANAN)
 global.lopr = '🅟' //LOGO PREMIUM ON MENU.JS
 global.lolm = 'Ⓛ' //LOGO FREE ON MENU.JS
 global.htjava = '𖥸'    //hiasan Doang :v

@@ -950,14 +950,14 @@ export async function participantsUpdate({ id, participants, action }) {
                         let wel = API('hardianto', '/api/welcome3', {
                                 profile: pp,
                                 name: await this.getName(user),
-                                bg: 'https://telegra.ph/file/99967eef4c9dd9c0cc911.png',
+                                bg: 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg',
                                 namegb: await this.getName(id),
                                 member: groupMetadata.participants.length
                             })
                             let lea = API('hardianto', '/api/goodbye3', {
                                 profile: pp,
                                 name: await this.getName(user),
-                                bg: 'https://telegra.ph/file/99967eef4c9dd9c0cc911.png',
+                                bg: 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg',
                                 namegb: await this.getName(id),
                                 member: groupMetadata.participants.length
                             })

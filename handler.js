@@ -364,7 +364,7 @@ if (!isNumber(user.ayam)) user.ayam = 0
                     laper: 100,
                     stamina : 100,
                     pc : 0,
-                    joinlimit: 1,
+                    joinlimit: 0,
                     coin: 0,
                     age: -1,
                     regTime: -1,

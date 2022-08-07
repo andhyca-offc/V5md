@@ -11,7 +11,7 @@ let text = `
 `
 const templateButtons = [
     {index: 1, urlButton: {displayText: '📞 Hubungi Owner', url: 'https://wa.me/6285872761910'}},
-    {index: 4, quickReplyButton: {displayText: '📩 Bukti', id: '.order Bukti pembayaran Nya'}},
+    {index: 4, quickReplyButton: {displayText: '✅ ️Bukti, id: '.order Bukti pembayaran Nya'}},
 ]
 let tm = {
 text: text,
@@ -24,6 +24,6 @@ conn.sendMessage(m.chat, tm, m)
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^sudahbayar$/i
-handler.private = true
+handler.private = false
 
 export default handler

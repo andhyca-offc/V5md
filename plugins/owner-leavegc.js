@@ -1,6 +1,6 @@
 let handler = async (m, { conn, args, command }) => {
 	let group = m.chat
-        await m.reply('Sayonara , , ! (≧ω≦)ゞ', m.chat) 
+        await m.reply('Byee Bot akan pergi , , ! (≧ω≦)ゞ', m.chat) 
         await  conn.groupLeave(group)
         }
 handler.help = ['leavegc', 'out']

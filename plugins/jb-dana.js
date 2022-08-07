@@ -6,17 +6,17 @@ HayðŸ‘‹, ingin melanjutkan pembayaran?
 💌 *Pembayaran*
 💳 Via: Dana
 📞 Nomor: 085872761910
-👤 A/n: Ⓚ︎🅘︎Ⓝ︎🅖︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ
-📝 Mitra: 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ
+👤 A/n: Andhyca
+📦 Mitra: HarithsStoreSHOP_ID
 💰 Metode pembayaran: Online ( ~Cod~ )
 
-📣 *Buy & Website*
+📣 *Beli*
 
-Sewa Bot: Wa.me/62895330584590+.sewabot
+Sewa Bot: https://wa.me/62895330584590+.sewabot
 
-Buy Premium :Wa.me/62895330584590+.premium
+Buy Premium: https://wa.me/62895330584590+.premium
 
-Group Official :https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M
+Join GC Free 1 Day: https://wa.me/6285872761910+Owner+aku+mau+tambahin+bot+ke+grup+ku+yang+free+1+day.+boleh+gk
 
 ✏️ _Informasi Pembayaran_
 
@@ -27,8 +27,8 @@ Pastikan saldo kamu mencukupi untuk bertransaksi!
 ❗KLIK *SUDAH BAYAR* JIKA SUDAH MEMBAYAR!
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '📜 Qr Code', url: 'https://telegra.ph/file/4d91b25a776179f342588.jpg'}},
-    {index: 4, quickReplyButton: {displayText: '🗒️ Sudah Membayar', id: '.sudahbayar'}},
+    {index: 1, urlButton: {displayText: '🧾 Qris Code', url: 'https://telegra.ph/file/4d91b25a776179f342588.jpg'}},
+    {index: 4, quickReplyButton: {displayText: '📋 ️Sudah Membayar', id: '.sudahbayar'}},
 ]
 let tm = {
 text: text,
@@ -38,7 +38,7 @@ image: {url: fla + 'Donasi'}
 }
 conn.sendMessage(m.chat, tm, m)
 }
-handler.command = /^dana$/i
-handler.private = true
+handler.command = /^donasidana$/i
+handler.private = false
 
 export default handler

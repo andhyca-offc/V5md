@@ -10,14 +10,44 @@ handler.before = function (m, { isOwner, isAdmin, isBotAdmin }) {
 
     if (!chat.antiBadword && !chat.isBanned && !user.banned && isBadword && !isOwner && !isAdmin) {
         user.warn += 1
-        this.sendButton(m.chat, `*Badword terdeteksi!*
+        this.sendButton(m.chat, `*–––––– 『 Badword terdeteksi! 』 ––––––*
 Warning: ${user.warn} / 3
 Jika warning mencapai 3 kamu akan *dibanned+kick*
 
-📮Jika Kamu mengulang terus menerus
-kamu akan ter block otomatis oleh bot !
+    
+📮 *Note:*
+• Karena salah satu member disini telah berkata Toxic, Terpaksa BOT akan melakukan iklan
+• Izin promotion/promosi/iklan kepada ADMIN dan SEMUA PESERTA
 
-“Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah dia berkata baik atau diam” (HR. al-Bukhari dan Muslim).`, wm, '✨Oke', 'ok', '🌸Owner', '.owner', m)
+*BINGUNG MAU SEWA BOT? SEWA 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ AJA!*
+_⫹⫺ 1 Minggu = Rp.5k_ 𝗛𝗲𝗺𝗮𝘁
+_⫹⫺ 1 Bulan = Rp.15k_ 𝗡𝗼𝗿𝗺𝗮𝗹
+_⫹⫺ 5 Bulan = Rp.23k_ 𝗦𝘁𝗮𝗻𝗱𝗮𝗿
+_⫹⫺ 12 Bulan = Rp.35k_ 𝗣𝗿𝗼
+_⫹⫺ Permanen = Rp.50K_ 𝗩𝗶𝗽
+
+𝐏𝐚𝐲𝐦𝐞𝐧𝐭𝐍𝐲𝐚𝐚 :
+• Ovo
+• Dana
+• Gopay
+• Pulsa
+
+
+*JANGAN LUPA PREMIUMNYA BIAR FITUR PREMIUM KEBUKAN, DAN LIMIT MU JADI UNLIMITED!*
+_⫹⫺ 1 Minggu = Rp.5k_ 𝗛𝗲𝗺𝗮𝘁
+_⫹⫺ 1 Bulan = Rp.10k_ 𝗡𝗼𝗿𝗺𝗮𝗹
+_⫹⫺ 4 Bulan = Rp.30k_ 𝗦𝘁𝗮𝗻𝗱𝗮𝗿
+_⫹⫺ 8 Bulan = Rp.40k_ 𝗣𝗿𝗼
+_⫹⫺ Permanen = Rp.55K_ 𝗩𝗶𝗽
+
+𝐏𝐚𝐲𝐦𝐞𝐧𝐭𝐍𝐲𝐚𝐚 :
+• Ovo
+• Dana
+• Gopay
+• Pulsa
+
+
+“Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah dia berkata baik atau diam” (HR. al-Bukhari dan Muslim).`, wm, '💌 Group Official', sgc, '🌹 Owner', '.owner', m)
         if (user.warn >= 3) {
             user.banned = true
             if (m.isGroup) {

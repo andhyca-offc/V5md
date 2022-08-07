@@ -12,7 +12,7 @@ const sections = [
 	    {title: "💳 ≼≽ Gopay", rowId: '.donasigopay', description: 'Bayar melalui Gopay' },
 	{title: "💳 ≼≽ Ovo", rowId: '.donasiovo', description: 'Bayar melalui Ovo' },
 	{title: "💸 ≼≽ Pulsa Indosat", rowId: '.donasismartfren', description: 'Bayar melalui pulsa' },
-	{title: "💸 ≼≽ Pulsa Xl Axiata", rowId: '.donasiastri', description: 'Bayar melalui pulsa' },
+	{title: "💸 ≼≽ Pulsa Xl Axiata", rowId: '.donasitri', description: 'Bayar melalui pulsa' },
 	]
     }, 
 

@@ -9,6 +9,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let teksnomor = `${htki} *OWNER* ${htka}
 • @${nomorown.split`@`[0]} •
 ––––═┅═━ ${nameown} ═┅═━––––
+• @+62 857-9440-8499 •
+––––═┅═━ ${nameown} ═┅═━––––
+• @+62 895-3305-84590 •
+––––═┅═━ ${nameown} ═┅═━––––
 
 📮 *Note:*
 ⪧ Owner tidak menerima save contact
@@ -32,7 +36,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 *💬 Sifat* : Baik, Ramah, Mudah Memahami Orang Lain
 *🗺️ Tinggal* : Indonesia, jawa, bandung
 *❤️ Suka* : Semuanya Kecuali 🪵 Dan 🪨
-*💔 Benci* : Jin, Syetan, Dajjal, Manusia Caper,
+*💔 Benci* : Jin, Syetan, Dajjal, Manusia Caper, Orang Aneh.
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [70.7%]
@@ -45,10 +49,10 @@ let teksbio = `${htki} *BIODATA* ${htka}
 ───────[ SOSIAL MEDIA ]───────
 
 📷 *Instagram:* ${sig}
-🐈 *Github:* ${sgh}
+🐈 *Group Chat:* ${sgc}
 🥏 *Whatsapp* wa.me/${nomorown}
 🌐 *Discord:* https://discord.com/
-🌏 *Website:* https://fangzbot.websites.co.in/
+🌏 *Website:* https://wa.me/6285872761910
 🎶 *Tiktok:* https://tiktok.com/
 
 `
@@ -63,7 +67,7 @@ const sections = [
 	{title: "🌎 • Script", rowId: ".sc"},
 	{title: "👤 • Nama", rowId: ".nameown"},
 	{title: "🏮 • Youtube", rowId: ".ytbot"},
-	{title: "🐈 • Github", rowId: ".github"},
+	{title: "📸 • Instagram", rowId: ".ig"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
@@ -91,7 +95,7 @@ const listMessage = {
           conn.reply(m.chat, teksnomor, m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
-          conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
+          conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["🎀 ʟɪsᴛ ᴍᴇɴᴜ", '.command'], [null, null],[null,null]], m)
             break
             
           default:
@@ -114,8 +118,8 @@ const listMessage = {
   }
 }
 
-handler.help = ['owner', 'creaor']
+handler.help = ['creator']
 handler.tags = ['main', 'info']
-handler.command = /^(owner|creator)/i
+handler.command = /^(creator)/i
 
 export default handler

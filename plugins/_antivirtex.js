@@ -10,7 +10,8 @@ let handler = async function(m, { conn , args, text, isAdmin, isBotAdmin, groupM
   } else {
   	if (isAdmin) return m.reply('*Admin Mengapa?*')
     await conn.reply(m.chat, `
-*[ CHAT ANTI VIRTEX ]*
+*–––––– 『 Anti Virtext 』 ––––––*
+
 _Terdeteksi *@${asu.split("@")[0]}* telah mengirim virtex!_
 Maaf Kamu akan dikick oleh *ANDHYCA BOT*
 `.trim(), m, { 

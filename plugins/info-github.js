@@ -1,13 +1,13 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `📮 *FOLLOW GITHUB OWNER*
+let info = `📮 *FOLLOW INSTAGRAM OWNER*
 
 Atau Bisa Lewat Link Dibawah Ini :
-https://github.com/andhyca-ofc
+https://instagram.com/andhycarsrofficial
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*ANDHYCA BOT GITHUB*', 'status@broadcast') 
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '📸 *@andhycarsrofficial* 📸', 'status@broadcast') 
 }
-handler.help = ['github']
+handler.help = ['ig']
 handler.tags = ['info']
 handler.command = /^(github)$/i
 handler.owner = false

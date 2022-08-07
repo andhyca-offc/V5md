@@ -35,7 +35,7 @@ let handler = async m => m.reply(`
 handler.help = ['apikey']
 handler.tags = ['info']
 handler.command = /^apikey$/i
-handler.rowner = false
+handler.rowner = true
 handler.mods = false
 handler.premium = true
 handler.group = false

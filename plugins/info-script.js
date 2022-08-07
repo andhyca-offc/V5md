@@ -1,12 +1,12 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `๑–––┅═━🌹UNTUK APA?┅═━–––๑
+let text = `๑–––┅═━ ♨️ PRIVATE ┅═━–––๑
            
-      📮 Private. Di Yt Ada Banyak
+📮 *Note:* Script ini tidak gratis dan tidak diperjual belikan!
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '📽️ Youtube', url: 'https://youtube.com/channel/UCACHvReRmw2fxgMutPFCBWg'}},
-    {index: 1, urlButton: {displayText: '🔌 Github', url: sgh}},
-    {index: 4, quickReplyButton: {displayText: '🎀 Menu', id: '.menu'}},
+    {index: 1, urlButton: {displayText: '💌 Group Official', url: sgc}},
+    {index: 1, urlButton: {displayText: '📸 Instagram Owner', url: sig}},
+    {index: 4, quickReplyButton: {displayText: '🎀 List Menu', id: '.menu'}},
     {index: 5, quickReplyButton: {displayText: '🌹 Owner', id: '.owner'}},
 ]
 let tm = {

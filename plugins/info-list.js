@@ -1,18 +1,14 @@
 let handler = async (m, { conn }) => {
 let info = `
 *${htki} INFO 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ ${htka}*
+
+
+📮 *Note:* Wajib patuhi S&K 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ
+
+♨️ *Iklan:* Join group BOT juga, biar bisa gunain fitur grup ( Klik button *💌 Group Official* untuk bergabung
 `
 const sections = [
    {
-	title: `✃ STATS`,
-	rows: [
-	    {title: "✦📊 ┊ Test Speed", rowId: '.testspeed', description: 'Test Speed 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },
-	    {title: "✦📉 ┊ Stats Server", rowId: '.statserver', description: 'Status server' },
-	{title: "✦🌹 ┊ Nama Creator", rowId: '.nameown', description: 'Owner 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },
-	{title: "✦📮 ┊ Donasi", rowId: '.donasi', description: 'Support 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },
-	{title: "✦🌸 ┊ Sapa Bot", rowId: '.salken', description: 'Menyapa 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },
-    ]
-    }, {
     title: `✃ INFO`,
 	rows: [
 	    {title: "☃︎📖 ┊ Rules", rowId: '.rules', description: 'S&K Fangz BOT' },
@@ -21,6 +17,7 @@ const sections = [
 	{title: "☃︎💵 ┊ Sewa BOT", rowId: '.sewa', description: 'Sewa 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },
 	{title: "☃︎🗣️ ┊ Request Fitur", rowId: '.request', description: 'Request Fitur 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },
 	{title: "☃︎🌏 ┊ Lokasi BOT", rowId: '.loc2', description: 'Lokasi 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },
+	{title: "☃︎💌 ┊ Group Official", rowId: '.gcbot', description: 'Group Chat 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' },	
 	]
     },{
     title: `✃ INFO BOT`,
@@ -37,15 +34,15 @@ const listMessage = {
   text: ' ',
   footer: info,
   title: null,
-  buttonText: "🎀 CLICK HERE 🎀",
+  buttonText: "꧁ꨄ︎ CLICK HERE ꨄ꧂︎",
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "💌 Group Official", null,null, [['Owner','.owner']], m)
 }
 
-handler.help = ['info', 'infobot']
+handler.help = ['infobot']
 handler.tags = ['info']
-handler.command = /^(info|infobot)$/i
+handler.command = /^(infobot)$/i
 
 export default handler

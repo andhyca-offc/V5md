@@ -6,9 +6,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let link = image
     conn.sendHydrated(m.chat,`
 *${htki} GOOGLE IMAGE ${htka}*
-🔎 *Result:* ${text}
-🌎 *Source:* Google
-`, wm, link, link, '🔗 URL', null, null, [['Next', `.image ${text}`],[null,null],[null,null]],m)
+
+🔎• *Result:* ${text}
+🌎• *Source:* Google
+`, wm, link, link, '📥 Url Link', null, null, [['🚀 Next 🚀', `.image ${text}`],[null,null],[null,null]],m)
 }
 handler.help = ['gimage <query>', 'image <query>']
 handler.tags = ['internet', 'tools']

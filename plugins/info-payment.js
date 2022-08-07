@@ -2,18 +2,17 @@ let handler = async (m, { conn }) => {
 let info = `
 *${htki} PAYMENT ${htka}*
 
-©2022 FangzBot Official 
+©2022 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ Official 
 `
 const sections = [
    {
-	title: `✃ sᴇᴡᴀ`,
+	title: `✃ ᴘ ᴀ ʏ ᴍ ᴇ ɴ ᴛ`,
 	rows: [
-	    {title: "💳Dana", rowId: '.dana', description: 'Bayar melalui Dana' },
-	    {title: "💳Gopay", rowId: '.gopay', description: 'Bayar melalui Gopay' },
-	{title: "💳Ovo", rowId: '.ovo', description: 'Bayar melalui Ovo' },
-	{title: "💳Motion Pay", rowId: '.motionpay', description: 'Bayar melalui Motion Pay' },
-	{title: "💵 Pulsa Smartfren", rowId: '.pulsasmartfren', description: 'Bayar melalui pulsa' },
-	{title: "💵 Pulsa Tri3", rowId: '.pulsastri', description: 'Bayar melalui pulsa' },
+	    {title: "💳 ✦ Dana", rowId: '.dana', description: '♡︎ Bayar melalui Dana' },
+	    {title: "💳 ✦ Gopay", rowId: '.gopay', description: '♡︎ Bayar melalui Gopay' },
+	{title: "💳 ✦ Ovo", rowId: '.ovo', description: '♡︎ Bayar melalui Ovo' },
+	{title: "💵 ✦ Pulsa Indosat", rowId: '.pulsasmartfren', description: '♡︎ Bayar melalui pulsa My Im3' },
+	{title: "💵 ✦ Pulsa Xl Axiata", rowId: '.pulsastri', description: '♡︎ Bayar melalui pulsa Xl' },
 	]
     }, 
 
@@ -23,7 +22,7 @@ const listMessage = {
   text: ' ',
   footer: info,
   title: null,
-  buttonText: "💰",
+  buttonText: "💰 ᴘ ᴀ ʏ ᴍ ᴇ ɴ ᴛ 💰",
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m})

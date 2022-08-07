@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 	let mime = await lookup(res)
 	text.match(URL_REGEX) ?
 		await conn.sendMessage(m.chat, { [mime.split('/')[0]]: { url: res }, caption: `Succes Download: ${await shortUrl(res)}` }, { quoted: m }) :
-	await conn.sendButton(m.chat, `Result From: ${text.capitalize()}`, await shortUrl(res), res, [['Next', `${usedPrefix + command} ${text}`]], m)
+	await conn.sendButton(m.chat, `Result From: ${text.capitalize()}`, await shortUrl(res), res, [['🚀 Next 🚀', `${usedPrefix + command} ${text}`]], m)
 }
 handler.help = handler.alias = ['pinterest']
 handler.tags = ['downloader']

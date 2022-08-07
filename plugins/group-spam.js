@@ -34,7 +34,7 @@ let handler = async(m, { conn, text }) => {
     await m.reply(pesan)
     await m.reply(pesan)
 
-    conn.reply(m.chat, '📮Akhir Dari Spam', m)
+    conn.reply(m.chat, '📮 Akhir Dari Spam', m)
 }
 handler.help = ['groupspam'].map(v => v + ' <teks>')
 handler.tags = ['group']
